@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Statistics
 {
-    class Stats
+    public class Stats
     {
         public float average { get; set; }
         public float max { get; set; }

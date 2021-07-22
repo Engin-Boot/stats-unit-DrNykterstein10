@@ -15,7 +15,7 @@ namespace Statistics
             this.alerters = alerters;
         }
 
-        public void checkAndAlert(List<> numbers)
+        public void checkAndAlert(List<float> numbers)
         {
             var maxValue = numbers.Max();
 
