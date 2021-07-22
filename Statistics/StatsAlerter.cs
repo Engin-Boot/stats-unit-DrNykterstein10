@@ -6,16 +6,16 @@ namespace Statistics
 {
     public class StatsAlerter
     {
-        private float threshold;
+        private double threshold;
         private IAlerter[] alerters;
 
-        public StatsAlerter(float maxThreshold, IAlerter[] alerters)
+        public StatsAlerter(double maxThreshold, IAlerter[] alerters)
         {
             this.threshold =  maxThreshold;
             this.alerters = alerters;
         }
 
-        public void checkAndAlert(List<float> numbers)
+        public void checkAndAlert(List<double> numbers)
         {
             var maxValue = numbers.Max();
 
